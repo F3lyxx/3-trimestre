@@ -12,5 +12,5 @@ if (controle == "tocar") {
 const buttons = document.querySelectorAll("button")
 let contator = 0;
 while (contador < buttons.length){
-    
+    buttons[contador].textContent = contador
 }
